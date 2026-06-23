@@ -38,24 +38,6 @@ import fingerprint as fp
 
 st.set_page_config(page_title="Zapp-tain America", page_icon="🎵", layout="wide")
 
-st.markdown("""
-<style>
-    /* Background */
-    .stApp { background-color: #1E1E2E; }
-
-    /* Text */
-    html, body, [class*="css"] { color: #FFFFFF; font-family: monospace; }
-
-    /* Buttons */
-    .stButton > button {
-        background-color: #E694FF;
-        color: #1E1E2E;
-        border: none;
-        border-radius: 8px;
-    }
-</style>
-""", unsafe_allow_html=True)
-
 DB_PATH = "database.pkl"
 MAX_FREQ_HZ = 4000          # only frequencies up to here are plotted
 
